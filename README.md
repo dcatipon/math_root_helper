@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    MathRootHelper.square_root(4)     # returns 2.0
+    MathRootHelper.cube_root(125)     # returns 5.0
+    MathRootHelper.nth_root(4, 2401)  # returns 7.0
 
 ## Contributing
 
