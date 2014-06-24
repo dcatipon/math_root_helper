@@ -14,8 +14,8 @@ describe MathRootHelper do
     MathRootHelper.cube_root(0).should == 0
   end
 
-  it "the cube root of '64'" do
-    MathRootHelper.cube_root(64).should == 4
+  it "the cube root of '729'" do
+    MathRootHelper.cube_root(729).should == 9
   end
 
   it "the 0 root of '7'" do
