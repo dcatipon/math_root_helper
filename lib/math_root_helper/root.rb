@@ -1,6 +1,6 @@
 module MathRootHelper
   def self.square_root(num)
-    num**(1.0/2).round(14)
+    (num**(1.0/2)).round(14)
   end
 
   def self.cube_root(num)
@@ -11,7 +11,7 @@ module MathRootHelper
     if n == 0
       "Infinity"
     else
-      num**(1.0/n).round(14)
+      (num**(1.0/n)).round(14)
     end
   end
 end
